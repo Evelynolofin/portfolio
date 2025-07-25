@@ -23,7 +23,7 @@ li:hover{
 
 a {
   font-weight: 500;
-  color:#D91F50;
+  color:#f0a6ba;
   text-decoration: inherit;
 }
 a:hover {
@@ -67,6 +67,17 @@ form{
   margin-top: 30px;
 }
 
+#skill{
+  img{
+    width: 50px;
+  }
+}
+
+/* #card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
 
 @media screen and (max-width:768px) {
   .about{
@@ -81,5 +92,10 @@ form{
 
   textarea{
     width: 200px;
+  }
+
+  #card{
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

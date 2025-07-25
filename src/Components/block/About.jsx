@@ -3,14 +3,17 @@ import Headshot from './../../assets/Image.JPG'
 
 const About = () => {
   return (
-    <div className="px-[30px] opacity-100 animate-fadeInUp delay-100 pb-[100px] max-md:px-0">
-      <h1 className="text-[3.25rem] text-[#D91F50] font-bold pb-[50px] max-md:text-[28px] max-md:pb-[20px]">
+    <div
+      id="About"
+      className="px-[30px] opacity-100 animate-fadeInUp delay-100 pb-[100px] max-md:px-0"
+    >
+      <h1 className="text-[3.25rem] text-[#f0a6ba] font-bold pb-[50px] max-md:text-[28px] max-md:pb-[20px]">
         About Me
       </h1>
       <section className="flex justify-between max-md:flex-col max-md:items-center">
         <main>
           <p
-            className="text-[#D91F50] w-[600px] text-left animate-fadeInUp
+            className="text-[#f0a6ba] w-[600px] text-left animate-fadeInUp
           max-md:w-[300px] max-md:text-center
            max-md:text-[14px] max-md:pb-8"
           >
