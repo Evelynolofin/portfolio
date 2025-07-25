@@ -1,5 +1,5 @@
 import React from 'react'
-import Headshot from './../../assets/Image.JPG'
+import Headshot from './../../assets/IMG.JPG'
 
 const About = () => {
   return (
@@ -39,7 +39,7 @@ const About = () => {
           <img
             src={Headshot}
             alt="Image"
-            className="h-[350px] w-[350px] rounded-xl shadow-lg animate-zoomIn delay-300 
+            className="h-[300px] w-[500px] rounded-xl shadow-lg animate-zoomIn delay-300 
             max-md:animate-none"
           />
         </main>
