@@ -5,7 +5,7 @@ import Cheese from './../../assets/cheesecake.jpeg'
 import { data } from 'react-router-dom'
 import Button from '../reuseable/Button'
 import Moove from '../../assets/moove.png'
-import Testimony from '../../assets/testimony.png'
+import Recipe from '../../assets/recipe.png'
 import portfolio from '../../assets/portfolio.png'
 
 
@@ -41,7 +41,8 @@ const Portfolio = () => {
       color: "text-[#D91F50]",
       image: `${Cheese}`,
       Live: "https://cheesecake-landing-page-replica.netlify.app/",
-      Github: "https://github.com/Evelynolofin/Cheesecake-landing-page-replica.git",
+      Github:
+        "https://github.com/Evelynolofin/Cheesecake-landing-page-replica.git",
     },
     {
       title: "Moove replica landing page",
@@ -52,12 +53,12 @@ const Portfolio = () => {
       Github: "https://github.com/Evelynolofin/Moove-replica.git",
     },
     {
-      title: "Testimonial landing page replica",
+      title: "Recipe page replica",
       desc: "Drive it Own it",
       color: "text-[#D91F50]",
-      image: `${Testimony}`,
-      Live: "https://testimonial-page-replica.vercel.app/",
-      Github: "https://github.com/Evelynolofin/testimonial-page-replica.git",
+      image: `${Recipe}`,
+      Live: "https://recipe-page-8jpcq0q2s-evelyns-projects-8df8c631.vercel.app",
+      Github: "https://github.com/Evelynolofin/recipe-page",
     },
   ];
   return (
