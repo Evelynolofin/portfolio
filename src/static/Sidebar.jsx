@@ -15,7 +15,7 @@ const Sidebar = ({handleTogger}) => {
         <a href="#skill">Skills</a>
         <a href="https://drive.google.com/file/d/1fT-EshrWHHFO0wO7kKMv1tOZ0Mfl0fh2/view?usp=drivesdk">
           <Button 
-          title="Download CV" 
+          title="Download Resume" 
           textColor="#D91F50" 
           bgColor="#f0a6ba" />
         </a>

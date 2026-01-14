@@ -16,7 +16,6 @@ const Header = () => {
   return (
     <>
       <div
-        id="home"
         className="mb-[100px] fixed top-0 left-0 w-[100vw] px-[50px] bg-black max-md:0"
       >
         <main className="flex justify-between py-[10px] items-center">
@@ -24,7 +23,7 @@ const Header = () => {
             <img src={Logo} alt="logo" className="w-[60px]" />
           </nav>
           <ul className="text-[#f0a6ba] flex gap-6 max-md:hidden">
-            <a href="#home">Home</a>
+            <a href="#Home">Home</a>
             <a href="#About">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
@@ -32,9 +31,9 @@ const Header = () => {
             <a href="#skill">Skills</a>
           </ul>
           <section className="max-md:hidden">
-            <a href="https://drive.google.com/file/d/1fT-EshrWHHFO0wO7kKMv1tOZ0Mfl0fh2/view?usp=drivesdk">
+            <a href="https://drive.google.com/file/d/1U3dMMa0eotce7TGKZF0fA7SLLgXHAEhr/view?usp=drive_link">
               <Button
-                title="Download CV"
+                title="Download Resume"
                 textColor="#D91F50"
                 bgColor="#f0a6ba"
               />

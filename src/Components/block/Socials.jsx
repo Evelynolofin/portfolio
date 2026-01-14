@@ -8,10 +8,14 @@ const Socials = () => {
       <hr />
 
       <div className="flex justify-center text-[38px] mt-[20px] gap-3">
-        <a href="https://github.com/Evelynolofin">
+        <a href="https://github.com/Evelynolofin"
+          className='transition-all duration-300 hover:scale-105'
+        >
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/evelynolofin">
+        <a href="https://linkedin.com/in/evelynolofin"
+          className='transition-all duration-300 hover:scale-105'
+        >
           <FaLinkedin />
         </a>
       </div>

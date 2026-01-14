@@ -7,13 +7,39 @@ import Button from '../reuseable/Button'
 import Moove from '../../assets/moove.png'
 import Recipe from '../../assets/recipe.png'
 import portfolio from '../../assets/portfolio.png'
+import mobile from '../../assets/mobile.png'
+import BreetCares from '../../assets/BreetCares.png'
+import AjoPay from '../../assets/AjoPay.png'
 
 
 const Portfolio = () => {
   const card = [
     {
-      title: "Testimonial landing page replica",
-      desc: "Drive it Own it",
+      title: "Boat Cruise mobile app",
+      desc: "We've got your perfect boat for every adventure",
+      color: "text-[#D91F50]",
+      image: `${mobile}`,
+      Github: "https://github.com/Evelynolofin/boatCruiseApp.git",
+    },
+    {
+      title: "Breet Cares website",
+      desc: "Empowering communities through care and connection",
+      color: "text-[#D91F50]",
+      image: `${BreetCares}`,
+      Live: "https://breet-cares-4x7q.vercel.app/",
+      Github: "https://github.com/Evelynolofin/BreetCares.git",
+    },
+    {
+      title: "AjoPay website",
+      desc: "Built the payment page in collaboration with a team as part of our capstone project for a financial savings app.",
+      color: "text-[#D91F50]",
+      image: `${AjoPay}`,
+      Live: "https://ajo-pay.netlify.app/",
+      Github: "https://github.com/midestic/Ajo.git",
+    },
+    {
+      title: "Portfolio website",
+      desc: "Showcasing creativity and code in perfect harmony",
       color: "text-[#D91F50]",
       image: `${portfolio}`,
       Live: "https://portfolio-lake-ten-13.vercel.app/",
@@ -54,7 +80,7 @@ const Portfolio = () => {
     },
     {
       title: "Recipe page replica",
-      desc: "Drive it Own it",
+      desc: "Delicious recipes at your fingertips",
       color: "text-[#D91F50]",
       image: `${Recipe}`,
       Live: "https://recipe-page-8jpcq0q2s-evelyns-projects-8df8c631.vercel.app",
@@ -62,50 +88,63 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div id="portfolio" className="px-[50px] mb-[150px] max-md:px-[30px]">
-      <main>
-        <h1 className="text-[3.25rem] text-[#f0a6ba] font-bold pb-[20px] max-md:text-[28px] max-md:pb-[20px]">
+    <div id="portfolio" className="px-12 mb-36 max-md:px-6 max-md:mb-20">
+      <main className="mb-12 max-md:mb-8">
+        <h1 className="text-5xl text-[#f0a6ba] font-bold pb-5 max-md:text-3xl max-md:pb-4">
           Portfolio Project
         </h1>
-        <p className="text-[#f0a6ba] mb-5 max-md:text-[14px]">
-          Developed with HTML, CSS and React, these designs are fully responsive across
-          mobile and desktop devices.
+        <p className="text-[#f0a6ba] text-lg leading-relaxed max-md:text-sm max-md:leading-normal">
+          Designed and built with HTML, CSS, Javascript, TypeScript, React and React Native, these cross-platform 
+          applications provide consistent, high-performance experiences across web, Android, and iOS platforms.
         </p>
       </main>
-      <section id='card' className=" grid grid-cols-3 max-md:grid-cols-1 gap-1">
+
+      <section id='card' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-md:gap-5">
         {card?.map((data, i) => (
-          <div>
-            <section className="flex flex-col rounded-2xl border-solid border-[#f0a6ba] border-2 max-md:mt-10 max-md:p-[10px]">
-              <div>
+          <div key={i} className="flex h-full">
+            <section className="flex flex-col rounded-2xl border-2 border-[#f0a6ba] p-6 w-full hover:shadow-lg transition-shadow max-md:p-4">
+              <div className="mb-4 max-md:mb-3">
                 <img
                   src={data.image}
-                  alt=""
-                  className="w-[300px] h-[150px] rounded-2xl m-10
-              max-md:w-[250px] max-md:h-[100px] max-md:m-0"
+                  alt={data.title}
+                  className="w-full h-48 object-cover rounded-xl max-md:h-40"
                 />
               </div>
-              <span>
-                <h1 className="text-[1.25rem] text-[#f0a6ba] font-bold pb-[5px] max-md:text-[18px] max-md:pb-[8px] max-md:pt-10">
+
+              <span className="flex flex-col flex-grow">
+                <h2 className="text-xl text-[#f0a6ba] font-bold mb-3 max-md:text-lg max-md:mb-2">
                   {data.title}
-                </h1>
-                <p className="text-[#f0a6ba] max-md:mb-5 px-[50px] max-md:px-0">
+                </h2>
+                <p className="text-[#f0a6ba] mb-6 flex-grow text-base leading-relaxed max-md:text-sm max-md:mb-4 max-md:leading-normal">
                   {data.desc}
                 </p>
-                <div className="mt-3 flex justify-center gap-3 items-center">
-                  <a href={data.Live}>
-                    <Button
-                      title="Live Demo"
-                      textColor="#D91F50"
-                      bgColor="#f0a6ba"
-                    />
+                <div className="flex gap-3 mt-auto max-md:gap-2 max-md:flex-col">
+                  <a  href={data.Live}
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex-1 max-md:w-full transition-all duration-300 hover:scale-110"
+                  >
+                    <div className="w-full">
+                      <Button
+                        title="Live Demo"
+                        textColor="#D91F50"
+                        bgColor="#f0a6ba"
+                      />
+                    </div>
                   </a>
 
-                  <a href={data.Github}>
-                    <Button
-                      title="View Github"
-                      textColor="#D91F50"
-                      bgColor="#f0a6ba"
-                    />
+                  <a  href={data.Github}
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex-1 max-md:w-full transition-all duration-300 hover:scale-110"
+                  >
+                    <div className="w-full">
+                      <Button
+                        title="View GitHub"
+                        textColor="#D91F50"
+                        bgColor="#f0a6ba"
+                      />
+                    </div>
                   </a>
                 </div>
               </span>

@@ -1,19 +1,28 @@
-import React from 'react'
+import React from 'react';
 
-const Button = ({title, borderColor, bgColor, iconTitle, textColor}) => {
+const Button = ({ title, iconTitle, bgColor, textColor }) => {
   return (
     <button
       style={{
-        border: `${borderColor}`,
-        background: `${bgColor}`,
-        color: `${textColor}`,
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 4,
+        color: textColor || '#fff',
+        backgroundColor: bgColor || '#D91F50',
+        border: 'none',
+        borderRadius: 12,
+        padding: '4px 10px',
+        fontSize: 14,
+        fontWeight: 500,
+        cursor: 'pointer',
+        whiteSpace: 'nowrap',
       }}
-      className="p-3 mb-3 rounded-3xl font-bold hover:bg-white hover:text-[#D91F50] max-md:p-1"
+      className="hover:bg-white hover:text-[#D91F50]"
     >
-      <span>{iconTitle}</span>
+      {iconTitle && <span>{iconTitle}</span>}
       <span>{title}</span>
     </button>
   );
-}
+};
 
-export default Button
+export default Button;
