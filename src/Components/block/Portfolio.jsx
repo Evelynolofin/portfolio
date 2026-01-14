@@ -42,7 +42,7 @@ const Portfolio = () => {
       desc: "Showcasing creativity and code in perfect harmony",
       color: "text-[#D91F50]",
       image: `${portfolio}`,
-      Live: "https://portfolio-lake-ten-13.vercel.app/",
+      Live: "https://portfolio-ashy-seven-40.vercel.app/",
       Github: "https://github.com/Evelynolofin/portfolio.git",
     },
     {
