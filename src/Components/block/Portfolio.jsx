@@ -8,7 +8,7 @@ import Moove from '../../assets/moove.png'
 import Recipe from '../../assets/recipe.png'
 import portfolio from '../../assets/portfolio.png'
 import mobile from '../../assets/mobile.png'
-import BreetCares from '../../assets/BreetCares.png'
+import BreetCares from '../../assets/breetCares.png'
 import AjoPay from '../../assets/AjoPay.png'
 
 
