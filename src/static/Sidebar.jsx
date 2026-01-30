@@ -41,7 +41,7 @@ const Sidebar = ({handleTogger}) => {
   }, [navItems]);
 
   return (
-    <div className="fixed top-65 left-10/12 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-[#1a1a1a] rounded-lg shadow-2xl px-8 py-6 hidden max-md:block">
+    <div className="fixed top-65 left-9/12 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-[#1a1a1a] rounded-lg shadow-2xl px-8 py-6 hidden max-md:block">
       <ul 
         className="text-[#f0a6ba] flex flex-col items-center justify-center gap-6"
       >
