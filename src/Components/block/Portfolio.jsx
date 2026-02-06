@@ -19,7 +19,7 @@ const Portfolio = () => {
       desc: "We've got your perfect boat for every adventure",
       color: "text-[#D91F50]",
       image: `${mobile}`,
-      Live: "https://expo.dev/preview/update?message=Fixed+guest+users+logic&updateRuntimeVersion=1.0.0&createdAt=2026-01-12T15%3A37%3A35.748Z&slug=exp&projectId=5d08d850-159d-43bb-b997-c20a025be785&group=913f1a21-2515-4e20-959a-7ff32b73e302",
+      Live: "https://expo.dev/preview/update?message=fixed+the+logout+session&updateRuntimeVersion=1.0.0&createdAt=2026-02-04T04%3A56%3A00.977Z&slug=exp&projectId=5d08d850-159d-43bb-b997-c20a025be785&group=620e62e5-0826-4f67-abed-c764670ba0ba",
       Github: "https://github.com/Evelynolofin/boatCruiseApp.git",
     },
     {
