@@ -1,8 +1,8 @@
+
 import React from 'react'
 import Daily from './../../assets/Daily-page.jpeg'
 import Coffee from './../../assets/coffe.jpeg'
 import Cheese from './../../assets/cheesecake.jpeg'
-import { data } from 'react-router-dom'
 import Button from '../reuseable/Button'
 import Moove from '../../assets/moove.png'
 import Recipe from '../../assets/recipe.png'
@@ -18,15 +18,15 @@ const Portfolio = () => {
       title: "Boat Cruise mobile app",
       desc: "We've got your perfect boat for every adventure",
       color: "text-[#D91F50]",
-      image: `${mobile}`,
-      Live: "https://expo.dev/preview/update?message=fixed+the+logout+session&updateRuntimeVersion=1.0.0&createdAt=2026-02-04T04%3A56%3A00.977Z&slug=exp&projectId=5d08d850-159d-43bb-b997-c20a025be785&group=620e62e5-0826-4f67-abed-c764670ba0ba",
+      image: ,
+      Live: "https://expo.dev/preview/update?message=Fixed+autologout+loggic&updateRuntimeVersion=1.0.0&createdAt=2026-02-06T18%3A10%3A03.766Z&slug=exp&projectId=5d08d850-159d-43bb-b997-c20a025be785&group=0f02315f-fd2b-4765-a829-c7b4b723e90b",
       Github: "https://github.com/Evelynolofin/boatCruiseApp.git",
     },
     {
       title: "Breet Cares website",
       desc: "Empowering communities through care and connection",
       color: "text-[#D91F50]",
-      image: `${BreetCares}`,
+      image: ,
       Live: "https://breet-cares-4x7q.vercel.app/",
       Github: "https://github.com/Evelynolofin/BreetCares.git",
     },
@@ -34,7 +34,7 @@ const Portfolio = () => {
       title: "AjoPay website",
       desc: "Built the payment page in collaboration with a team as part of our capstone project for a financial savings app.",
       color: "text-[#D91F50]",
-      image: `${AjoPay}`,
+      image: ,
       Live: "https://ajo-pay.netlify.app/",
       Github: "https://github.com/midestic/Ajo.git",
     },
@@ -42,7 +42,7 @@ const Portfolio = () => {
       title: "Portfolio website",
       desc: "Showcasing creativity and code in perfect harmony",
       color: "text-[#D91F50]",
-      image: `${portfolio}`,
+      image: ,
       Live: "https://portfolio-ashy-seven-40.vercel.app/",
       Github: "https://github.com/Evelynolofin/portfolio.git",
     },
@@ -50,7 +50,7 @@ const Portfolio = () => {
       title: "Daily needs landing page",
       desc: "Simplicity meets warmth",
       color: "text-[#D91F50]",
-      image: `${Daily}`,
+      image: ,
       Live: "https://dailygoods-landing-page.netlify.app/",
       Github: "https://github.com/Evelynolofin/dailygoods.git",
     },
@@ -58,7 +58,7 @@ const Portfolio = () => {
       title: "Coffe replica landing page",
       desc: "Indulge in every sip, experience the richness of coffee",
       color: "text-[#D91F50]",
-      image: `${Coffee}`,
+      image: ,
       Live: "https://evelynolofin.github.io/coffe-brocelle-replica/",
       Github: "https://github.com/Evelynolofin/coffe-brocelle-replica.git",
     },
@@ -66,7 +66,7 @@ const Portfolio = () => {
       title: "Cheesecake replica landing page",
       desc: "Bite The World of Cheesecake Wonder",
       color: "text-[#D91F50]",
-      image: `${Cheese}`,
+      image: ,
       Live: "https://cheesecake-landing-page-replica.netlify.app/",
       Github:
         "https://github.com/Evelynolofin/Cheesecake-landing-page-replica.git",
@@ -75,15 +75,15 @@ const Portfolio = () => {
       title: "Moove replica landing page",
       desc: "Drive it Own it",
       color: "text-[#D91F50]",
-      image: `${Moove}`,
-      Live: "moove-replica-9egyky93a-evelyns-projects-8df8c631.vercel.app",
+      image: ,
+      Live: "https://moove-replica.vercel.app",
       Github: "https://github.com/Evelynolofin/Moove-replica.git",
     },
     {
       title: "Recipe page replica",
       desc: "Delicious recipes at your fingertips",
       color: "text-[#D91F50]",
-      image: `${Recipe}`,
+      image: ,
       Live: "https://recipe-page-8jpcq0q2s-evelyns-projects-8df8c631.vercel.app",
       Github: "https://github.com/Evelynolofin/recipe-page",
     },
@@ -158,3 +158,4 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
