@@ -31,7 +31,7 @@ const Header = () => {
             <a href="#skill">Skills</a>
           </ul>
           <section className="max-md:hidden">
-            <a href="https://drive.google.com/file/d/1U3dMMa0eotce7TGKZF0fA7SLLgXHAEhr/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1GPoWtoHpOKT8lObO-BIwkPaZzUzv6PO9/view?usp=drivesdk">
               <Button
                 title="Download Resume"
                 textColor="#D91F50"

@@ -1,5 +1,3 @@
-
-import React from 'react'
 import Daily from './../../assets/Daily-page.jpeg'
 import Coffee from './../../assets/coffe.jpeg'
 import Cheese from './../../assets/cheesecake.jpeg'
@@ -158,4 +156,3 @@ const Portfolio = () => {
 }
 
 export default Portfolio
-
