@@ -8,6 +8,7 @@ import portfolio from '../../assets/portfolio.png'
 import mobile from '../../assets/mobile.png'
 import BreetCares from '../../assets/breetCares.png'
 import AjoPay from '../../assets/Ajopay.png'
+import Resin from '../../assets/ResinbyEvelyn.jpg'
 
 
 const Portfolio = () => {
@@ -43,6 +44,14 @@ const Portfolio = () => {
       image: portfolio,
       Live: "https://portfolio-ashy-seven-40.vercel.app/",
       Github: "https://github.com/Evelynolofin/portfolio.git",
+    },
+    {
+      title: "ResinbyEvelyn website",
+      desc: "Art meets shine",
+      color: "text-[#D91F50]",
+      image: Resin,
+      Live: "https://resin-by-evelyn.vercel.app",
+      Github: "https://github.com/Evelynolofin/ResinByEvelyn",
     },
     {
       title: "Daily needs landing page",
